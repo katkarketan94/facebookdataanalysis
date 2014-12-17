@@ -1,0 +1,19 @@
+<h1> User's Favourite </h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Favourites Id</th>
+    <th>Genre</th>
+    <th>Starring</th>
+    <th>About</th>
+  </tr>
+	<% @allfavourite.each do |favourite| %>
+  <tr>
+    <td><%= favourite.name %></td>
+    <td><%= favourite.category %></td>
+    <td><%= favourite.favourite_id %></td>
+    <td><%= favourite.about.genre %></td>
+  </tr>
+     <% end %>
+</table>

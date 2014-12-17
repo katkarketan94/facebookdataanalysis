@@ -1,0 +1,25 @@
+User's UID : <%= @current_user.uid %> <br />
+User's name : <%= @current_user.name %> <br />
+User's email : <%= @current_user.email %> <br />
+User's Age : <%= @year %> <br />
+User's Gender : <%= @current_user.gender %> <br />
+User's Hometown : <%= @current_user.hometown %> <br />
+User's Relationship Status : <%= @current_user.relationship_status %> <br />
+User's Interested in : <%= @current_user.interested_in %> <br />
+User's Religion : <%= @current_user.religion %> <br />
+User's Work : <%= @current_user.work %> <br />
+User's Languages : <%= @current_user.language %> <br />
+<strong> User likes the following types of Movies  </strong> <br />
+<%= @adventure_number %> number of Action & Adventure movies.<br />
+<%= @comedy_number %> number of comedy movies.<br />
+<%= @drama_number %> number of Drama movies.<br />
+<%= @romantic_number %> number of romantic movies.<br />
+<%= @crime_number %> number of Crime movies.<br />
+<strong> User's friend using this app </strong> <br />
+<% @friends.each do |friend| %>
+<%= friend["name"] %> <br />
+<% end %> <br />
+<strong> According to your facebook likes you will like latest this movies </strong> <br />
+<% @newmovie.each do |movie| %>
+<%= movie %> <br />
+<% end %>

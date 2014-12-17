@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  gender: MyString
+  hometown: MyString
+  interested_in: MyString
+  relationship_status: MyString
+  religion: MyString
+
+two:
+  gender: MyString
+  hometown: MyString
+  interested_in: MyString
+  relationship_status: MyString
+  religion: MyString

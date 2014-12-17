@@ -1,0 +1,23 @@
+<h1> User Education</h1>
+<table>
+  <tr>
+    <th> School Name </th>
+    <th> School Id </th>
+  </tr>
+	<% @educations.each do |school| %>
+  <tr>
+    <td><%= school.name %></td>
+    <td><%= school.school_id %></td>
+  </tr>
+     <% end %>
+</table>
+
+<strong> Did you know that </strong> <br />
+
+<% @name.each do |name| %>
+<%= name %> <br />
+<% end %>
+
+<strong> also went to </strong> <br />
+<%= @education_name %>
+	

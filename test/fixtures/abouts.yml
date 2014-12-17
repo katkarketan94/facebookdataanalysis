@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  genre: MyText
+  page_id: MyString
+  website: MyString
+  directed_by: MyString
+  starring: MyString
+  author: MyString
+  favourite: 
+
+two:
+  genre: MyText
+  page_id: MyString
+  website: MyString
+  directed_by: MyString
+  starring: MyString
+  author: MyString
+  favourite: 

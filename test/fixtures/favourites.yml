@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  category: MyString
+  name: MyString
+  favourite_id: 1
+  about_id: 
+
+two:
+  category: MyString
+  name: MyString
+  favourite_id: 1
+  about_id: 
